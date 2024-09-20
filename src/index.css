@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap'); */
+
+@layer base {
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  h1 {
+    @apply font-semibold uppercase tracking-widest text-primary;
+  }
+  h2 {
+    @apply uppercase tracking-wider text-primary text-center my-4;
+  }
+  h3 {
+    @apply font-medium text-sm text-gray-800 uppercase tracking-widest;
+  }
+  h4 {
+    @apply font-extrabold text-sm tracking-wider text-primary;
+  }
+}
+
+.header-btn {
+  @apply flex items-center bg-primary text-white py-1 px-2.5 rounded hover:brightness-125 hover:shadow-md;
+}
+
+.parent-container {
+  @apply bg-white w-full md:max-w-xl lg:max-w-2xl p-2 rounded-lg lg:p-8 shadow-xl m-2 flex flex-col;
+}
+
+.admission-container {
+  @apply bg-white w-full lg:w-fit p-2 rounded-lg lg:p-8 shadow-xl mx-2 my-8 flex flex-col;
+}
+
+.mealPlans-container {
+  @apply bg-white w-full lg:w-2/3 p-2 rounded-lg lg:p-8 shadow-xl mx-2 my-8 flex flex-col;
+}
+
+.profile-container {
+  @apply bg-white w-full md:max-w-xl lg:max-w-2xl p-2 rounded-lg lg:p-8 shadow-xl m-2 flex flex-wrap mx-auto;
+}
+
+.dashboard-container {
+  @apply bg-white w-full lg:w-2/3 p-2 rounded-lg lg:p-10 shadow-xl mx-2 my-8 flex flex-col;
+}
+
+.student-dashboard-container {
+  @apply bg-white w-full lg:w-2/3 p-2 rounded-lg lg:p-10 shadow-xl mx-2 my-8 flex flex-col md:flex-row justify-between;
+}
+
+.parent-container h2 {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.border-1 {
+  border: 1px solid #dee2e6;
+}
+
+.image-button {
+  @apply hover:shadow-xl hover:brightness-90 active:brightness-75 active:shadow-2xl;
+}
