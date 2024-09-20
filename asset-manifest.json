@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Rutik126/E_Hostel/static/css/main.3234c015.css",
+    "main.js": "/Rutik126/E_Hostel/static/js/main.a1d720f3.js",
+    "index.html": "/Rutik126/E_Hostel/index.html",
+    "main.3234c015.css.map": "/Rutik126/E_Hostel/static/css/main.3234c015.css.map",
+    "main.a1d720f3.js.map": "/Rutik126/E_Hostel/static/js/main.a1d720f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3234c015.css",
+    "static/js/main.a1d720f3.js"
+  ]
+}
